@@ -1,4 +1,12 @@
 {
   "description": "Demo of BOB and Project Explorer",
-  "curlib": "&CURLIB"
+  "curlib": "&CURLIB",
+  "buildCommand": "makei build",
+  "includePath": [
+    "QPROTOSRC"
+  ],
+  "compileCommand": "makei compile -f {filename}",
+  "preUsrlibl": [
+    "&DTALIB"
+  ]
 }
